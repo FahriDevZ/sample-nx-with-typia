@@ -1,0 +1,1 @@
+export const PROVIDE_SERVICE1 = Symbol('PROVIDE_SERVICE1');

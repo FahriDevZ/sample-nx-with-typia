@@ -1,0 +1,25 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "rootDir": ".",
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "target": "es2015",
+    "module": "esnext",
+    "lib": ["es2020", "dom"],
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "@nx-with-typia/nest-content-manager": [
+        "packages/nest-content-manager/src/index.ts"
+      ],
+      "@nx-with-typia/services-types": ["packages/services-types/src/index.ts"]
+    }
+  },
+  "exclude": ["node_modules", "tmp"]
+}
